@@ -1,0 +1,10 @@
+<project default="main">
+    <target name="main">
+        <mkdir dir="bin"/>
+        <javac srcdir="src/nim" destdir="bin"/>
+    </target>
+	<target name="tests">
+		<mkdir dir="bin" />
+		<javac srcdir="src/" destdir="bin" />
+	</target>
+</project>
